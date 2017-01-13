@@ -1,9 +1,9 @@
 function NonoiseImage()
 addpath('function/');
 %% Settings
-Input = './result/zooscanSquare/';
-NonoiseResultName = './result/zooscanNonoise/';
-BinaryResultName = './result/zooscanBinary/';
+Input = './result/ZooScanSquare/';
+NonoiseResultName = './result/ZooScanNonoise/';
+BinaryResultName = './result/ZooScanBinary/';
 %% END Settings
 traverse(Input, NonoiseResultName, BinaryResultName);
 end

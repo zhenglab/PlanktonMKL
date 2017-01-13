@@ -1,6 +1,6 @@
 clear
 clc
-TrainingSetInfo = importdata('./zooscan/zooscan.txt');
+TrainingSetInfo = importdata('./ZooScan/ZooScan.txt');
 TrainingSetNum = length(TrainingSetInfo.data);
 
 cellSize = 32;
@@ -17,7 +17,7 @@ for i = 1:TrainingSetNum
 end
 
 [m n] = size(featuresMatrixTrain);
-fid = fopen('./zooscan/zooscan-Train-Features-HOG.txt','w');
+fid = fopen('./ZooScan/ZooScan-Train-Features-HOG.txt','w');
 for i = 1:m
     for j = 1:n
         fprintf(fid, '%g\t', featuresMatrixTrain(i,j)); 

@@ -3,8 +3,8 @@ clc
 
 addpath(genpath('function/'));
 
-datasetName = 'zooscan';
-datasetInfo = importdata('../2FeatureExtraction/zooscanExtraction/zooscan/zooscan.txt');
+datasetName = 'ZooScan';
+datasetInfo = importdata('../2FeatureExtraction/ZooScanExtraction/ZooScan/ZooScan.txt');
 trainLabel = datasetInfo.data;
 
 featuresTrain = load(['../2FeatureExtraction/' datasetName 'Extraction/' datasetName '/' datasetName '-Train-Features.txt']);

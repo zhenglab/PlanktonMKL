@@ -1,8 +1,8 @@
 function preProcess_square()
 addpath('function/');
 %% Settings
-Input = './result/zooscanBoundingBox/';
-Output = './result/zooscanSquare/';
+Input = './result/ZooScanBoundingBox/';
+Output = './result/ZooScanSquare/';
 %% END Settings
 traverse(Input, Output);
 end

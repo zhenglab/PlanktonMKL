@@ -8,8 +8,8 @@ if ~isdir('./result/');
     mkdir('./result/');
 end
 
-datasetName = 'zooscan';
-trainSet = importdata('../../2FeatureExtraction/zooscanExtraction/zooscan/zooscan.txt');
+datasetName = 'ZooScan';
+trainSet = importdata('../../2FeatureExtraction/ZooScanExtraction/ZooScan/ZooScan.txt');
 label = trainSet.data;
 trainSetNum = length(trainSet.data);
 

@@ -3,7 +3,7 @@ clc
 % old参数：5，64，5
 
 
-TrainSetInfo = importdata('./zooscan/zooscan.txt');
+TrainSetInfo = importdata('./ZooScan/ZooScan.txt');
 TrainSetNum = length(TrainSetInfo.data);
 
 for i = 1:TrainSetNum
@@ -14,7 +14,7 @@ for i = 1:TrainSetNum
 end
 
 [m n] = size(featuresMatrixNew);
-fid = fopen('./zooscan/zooscan-Train-Features-Granulometry-New.txt','w');
+fid = fopen('./ZooScan/ZooScan-Train-Features-Granulometry-New.txt','w');
 for i = 1:m
     for j = 1:n
         fprintf(fid, '%g\t', featuresMatrixNew(i,j)); 
@@ -31,7 +31,7 @@ for i = 1:TrainSetNum
 end
 
 [m n] = size(featuresMatrixOld);
-fid = fopen('./zooscan/zooscan-Train-Features-Granulometry.txt','w');
+fid = fopen('./ZooScan/ZooScan-Train-Features-Granulometry.txt','w');
 for i = 1:m
     for j = 1:n
         fprintf(fid, '%g\t', featuresMatrixOld(i,j)); 

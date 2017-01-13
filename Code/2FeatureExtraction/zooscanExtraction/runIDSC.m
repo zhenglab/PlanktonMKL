@@ -4,12 +4,12 @@ clc;
 
 addpath(genpath('featuresFunction/'));
 
-TrainingBinarySetInfo = importdata('./zooscan/zooscanBinary.txt');
+TrainingBinarySetInfo = importdata('./ZooScan/ZooScanBinary.txt');
 TrainingSetNum = length(TrainingBinarySetInfo);
 % trainSet = importdata('Training_Set.txt');
 % label = trainSet.data;
 
-templateBinarySetInfo = importdata('./zooscan/Template.txt');
+templateBinarySetInfo = importdata('./ZooScan/Template.txt');
 templateNum = length(templateBinarySetInfo);
 
 match_cost = [];
@@ -30,4 +30,4 @@ lowvec=min(match_cost);
 upvec=max(match_cost);
 trainFeature = scaling( match_cost,lowvec,upvec);
 
-save ./zooscan/zooscan-Train-Features-IDSC.mat trainFeature
+save ./ZooScan/ZooScan-Train-Features-IDSC.mat trainFeature

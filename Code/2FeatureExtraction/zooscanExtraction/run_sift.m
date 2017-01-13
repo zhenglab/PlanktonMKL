@@ -3,7 +3,7 @@ clc
 
 addpath(genpath('featuresFunction/'));
 
-TrainingSetInfo = importdata('./zooscan/zooscan.txt');
+TrainingSetInfo = importdata('./ZooScan/ZooScan.txt');
 TrainingSetNum = length(TrainingSetInfo.data);
 numWords = 100;
 
@@ -29,4 +29,4 @@ for i = 1:TrainingSetNum
     histsTrain(i,:) = H;
 end
 
-save ./zooscan/zooscan-Train-Features-SIFT-100.mat histsTrain;
+save ./ZooScan/ZooScan-Train-Features-SIFT-100.mat histsTrain;

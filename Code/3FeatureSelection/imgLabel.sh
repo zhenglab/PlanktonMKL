@@ -2,7 +2,7 @@
 
 datasetPath='../../Dataset/'
 datasetName[0]='ASLO'
-datasetName[1]='zooscan'
+datasetName[1]='ZooScan'
 datasetName[2]='Kaggle'
 txtPath='./result/'
 

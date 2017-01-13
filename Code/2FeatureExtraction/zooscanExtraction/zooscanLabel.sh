@@ -1,11 +1,11 @@
 #!/bin/bash
-pathName='../../1ImagePreprocessing/zooscan/result/zooscanNonoise'
+pathName='../../1ImagePreprocessing/ZooScan/result/ZooScanNonoise'
 extension='png'
-dirName='zooscan/'
+dirName='ZooScan/'
 if [[ ! -d  $dirName ]]; then
 	mkdir $dirName
 fi
-txtName='./zooscan/zooscan.txt'
+txtName='./ZooScan/ZooScan.txt'
 if [ -f $txtName ]; then
 	rm $txtName
 fi

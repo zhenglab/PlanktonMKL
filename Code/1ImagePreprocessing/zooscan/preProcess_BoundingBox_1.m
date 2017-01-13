@@ -1,8 +1,8 @@
 function preProcess_BoundingBox()
 addpath('function/');
 %% Settings
-Input = '../../../Dataset/zooscan/training/';
-Output = './result/zooscanBoundingBox/';
+Input = '../../../Dataset/ZooScan/training/';
+Output = './result/ZooScanBoundingBox/';
 %% END Settings
 traverse(Input, Output);
 end

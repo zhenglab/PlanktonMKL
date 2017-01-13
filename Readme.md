@@ -3,19 +3,21 @@ Information
 
 This package contains the following two folders:
 
-* Dataset: This folder contains three datasets (ASLO, Kaggle, and zooscan).
+* Dataset: This folder contains three datasets (ASLO, Kaggle, and ZooScan).
 * Code: This folder contains the code of our method, which classifies plankton images using multiple features combination via multiple kernel learning. 
 
-Citation
+References
 ==========
 
-Please cite the following if you plan to use the code:
+[1] Heidi M. Sosik and Robert J. Olson. Automated taxonomic classification of phytoplankton sampled with imaging‐in‐flow cytometry. Limnology and Oceanography: Methods, 5(2):204-216, 2007.
 
-[1] Haibin Ling and David W Jacobs. Shape classification using the inner-distance. IEEE Transactions on Pattern Analysis and Machine Intelligence, 29(2):286–299, 2007.
+[2] Kaggle National Data Science Bowl: Predict ocean health, one plankton at a time. https://www.kaggle.com/c/datasciencebowl.
 
-[2] Gaby Gorsky, Mark D Ohman, Marc Picheral, St ́ephane Gasparini, Lars Stemmann, Jean-Baptiste Romagnan, Alison Cawood, St ́ephane Pesant, Carmen Garc ́ıa-Comas, and Franck Prejger. Digital zooplankton image analysis using the zooscan integrated system. Journal of Plankton Research, 32(3):285–303, 2010.
+[3] Gaby Gorsky, Mark D Ohman, Marc Picheral, St ́ephane Gasparini, Lars Stemmann, Jean-Baptiste Romagnan, Alison Cawood, St ́ephane Pesant, Carmen Garc ́ıa-Comas, and Franck Prejger. Digital zooplankton image analysis using the ZooScan integrated system. Journal of Plankton Research, 32(3):285–303, 2010.
 
-[3] Corinna Cortes, Mehryar Mohri, and Afshin Rostamizadeh. Learning non-linear combinations of kernels. Advances in Neural Information Processing Systems, pages 396–404, 2009.
+[4] Haibin Ling and David W Jacobs. Shape classification using the inner-distance. IEEE Transactions on Pattern Analysis and Machine Intelligence, 29(2):286–299, 2007.
+
+[5] Corinna Cortes, Mehryar Mohri, and Afshin Rostamizadeh. Learning non-linear combinations of kernels. Advances in Neural Information Processing Systems, pages 396–404, 2009.
 
 System Requirement
 ==================

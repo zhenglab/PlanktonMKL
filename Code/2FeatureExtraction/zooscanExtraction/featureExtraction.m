@@ -3,9 +3,9 @@ clc
 
 addpath(genpath('featuresFunction/'));
 
-datasetName = 'zooscan';
-TrainSetInfo = importdata('./zooscan/zooscan.txt');
-TrainBinarySetInfo = importdata('./zooscan/zooscanBinary.txt');
+datasetName = 'ZooScan';
+TrainSetInfo = importdata('./ZooScan/ZooScan.txt');
+TrainBinarySetInfo = importdata('./ZooScan/ZooScanBinary.txt');
 TrainSetNum = length(TrainBinarySetInfo);
 
 for i = 1:TrainSetNum
@@ -79,7 +79,7 @@ for i = 1:TrainSetNum
 end
 
 [m n] = size(featuresMatrix);
-fid = fopen('./zooscan/zooscan-Train-Features.txt','w');
+fid = fopen('./ZooScan/ZooScan-Train-Features.txt','w');
 for i = 1:m
     for j = 1:n
         fprintf(fid, '%g\t', featuresMatrix(i,j)); 

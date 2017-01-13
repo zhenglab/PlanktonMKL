@@ -1,6 +1,6 @@
 #!/bin/bash
 pathName='./featuresFunction/IDSC/template'
-outTxt='./zooscan/Template.txt'
+outTxt='./ZooScan/Template.txt'
 
 if [[ -f $outTxt ]]; then
 	rm $outTxt
