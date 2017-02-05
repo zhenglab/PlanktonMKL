@@ -30,7 +30,7 @@ Basic Usage
 
 1. The code includes five parts: 1 image preprocessing, 2 feature extraction, 3 feature selection, 4 cross validation, 5 multiple kernel learning. After downloading the code, you need to run them sequentially.
 
-2. If there are files "*.sh" in a folder, run these files in terminal firstly please. Then, run "*.m" in MATLAB.
+2. If there are files with ".sh" as file extension in a folder, run these files in terminal firstly please. Then, run files with ".m" as file extension in MATLAB.
 
 3. If the last element of a filename is digit, it indicates that you need to run this file according to the order of digit. Conversely, if the last element of a filename isn't digit, this file can be run in no order.
 
